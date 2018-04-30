@@ -116,6 +116,8 @@ def num_points_scored (name)
        
         if attribute == :players
             value.each do |player_name, stats|
+              
+              if player_name == name
              
                 stats.each do |individual_stat, stat_value|
                   
@@ -126,6 +128,8 @@ def num_points_scored (name)
                     end  
                 # binding.pry
                 end #ends stats.each
+              
+              end #ends if player_name  
 
             end #ends value.each
         end #ends if    
