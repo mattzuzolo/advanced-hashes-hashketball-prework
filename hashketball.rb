@@ -109,7 +109,7 @@ end
 
 def num_points_scored (name)
   
-  points_scored = nil
+  points_scored = 0
   
   game_hash.each do |side, data|
       data.each do |attribute, value|
