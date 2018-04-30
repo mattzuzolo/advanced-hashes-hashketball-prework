@@ -125,7 +125,6 @@ def num_points_scored (name)
                 end #ends stats.each
               
               end #ends if player_name  
-
             end #ends value.each
         end #ends if    
         
