@@ -141,6 +141,8 @@ def num_points_scored (name)
 end # end method
 
 num_points_scored ("Reggie Evans")
+binding.pry
+
 
 
 
