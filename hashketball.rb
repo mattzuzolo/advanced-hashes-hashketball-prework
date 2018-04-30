@@ -114,21 +114,18 @@ def num_points_scored (name)
   game_hash.each do |side, data|
       data.each do |attribute, value|
        
-        #if attribute == :players
             value.each do |player_name, stats|
              
                 stats.each do |individual_stat, stat_value|
                   
                     binding.pry
-                    if individual_stat == :points
-                  
-                      points_scored = stat_value
-                    end  
+                    # if individual_stat == :points
+                    #   points_scored = stat_value
+                    # end  
                 # binding.pry
                 end #ends stats.each
 
             end #ends value.each
-        #end #ends if    
         
       end #end data.each  
   end #end game_hash.each
