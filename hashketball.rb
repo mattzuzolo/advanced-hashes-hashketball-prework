@@ -120,8 +120,9 @@ def num_points_scored (name)
                 stats.each do |individual_stat, stat_value|
                   
                     if individual_stat == :points
-                    binding.pry
+                    
                       points_scored = stat_value
+                      #binding.pry
                     end  
                 # binding.pry
                 end #ends stats.each
