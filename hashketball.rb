@@ -133,7 +133,7 @@ def num_points_scored (name)
   points_scored
 end # end method
 
-num_points_scored (name)
+num_points_scored ("Ben Gordon")
 
 
 
