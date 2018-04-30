@@ -118,9 +118,9 @@ def num_points_scored (name)
             value.each do |player_name, stats|
              
                 stats.each do |individual_stat, stat_value|
-                  binding.pry
-                    if individual_stat == :points
                   
+                    if individual_stat == :points
+                    binding.pry
                       points_scored = stat_value
                     end  
                 # binding.pry
