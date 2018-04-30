@@ -123,7 +123,7 @@ def num_points_scored (name)
                   
                     if individual_stat == :points
                     
-                      return points_scored = stat_value
+                      points_scored = stat_value
                       #binding.pry
                     end  
                 # binding.pry
@@ -137,7 +137,7 @@ def num_points_scored (name)
       end #end data.each  
   end #end game_hash.each
   
-  #points_scored
+  points_scored
 end # end method
 
 # num_points_scored ("Reggie Evans")
